@@ -1,0 +1,235 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800&family=VT323&display=swap');
+
+/* layout */
+:root {
+  --primary: #1aac83;
+  --error: #e7195a;
+}
+body {
+  background: #f1f1f1;
+  margin: 0;
+  font-family: "Poppins";
+}
+header {
+  background: #fff;
+}
+header .container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+header a {
+  color: #333;
+  text-decoration: none;
+}
+.pages{
+  max-width: 1400px;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+/* homepage */
+.home {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  gap: 100px;
+}
+.carpoolinfos-details {
+  background: #fff;
+  border-radius: 4px;
+  margin: 20px auto;
+  padding: 20px;
+  position: relative;
+  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+}
+.carpoolinfos-details h4 {
+  margin: 0 0 10px 0;
+  font-size: 1.2em;
+  color: var(--primary);
+}
+.carpoolinfos-details p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #555;
+}
+.carpoolinfos-details span {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  background: #f1f1f1;
+  padding: 6px;
+  border-radius: 50%;
+  color: #333;
+}
+
+/* new workout form */
+label, input {
+  display: block;
+}
+input {
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+form button {
+  background: var(--primary);
+  border: 0;
+  color: #fff;
+  padding: 10px;
+  font-family: "Poppins";
+  border-radius: 4px;
+  cursor: pointer;
+}
+div.error {
+  padding: 10px;
+  background: #ffefef;
+  border: 1px solid var(--error);
+  color: var(--error);
+  border-radius: 4px;
+  margin: 20px 0;
+}
+input.error {
+  border: 1px solid var(--error);
+}
+
+
+
+
+
+
+
+
+/* These styles are added for the temporary purpose by me so it has to be removed later */
+
+
+
+
+
+
+
+
+.cont_1 {
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 4em;
+}
+
+.cont_1 h1{
+  font-size: 3rem;
+  text-align: center;
+}
+
+.content_1{
+  display: flex;
+}
+
+.content_1 p{
+  /* justify-content: flex-start; */
+  width: 14em;
+  font-size: 3em;
+  padding: 0px 40px;
+}
+
+.content_1 p p{
+  font-size: 22px;
+}
+
+.image_cont1{
+  /* justify-content: flex-end; */
+  margin-left: 10em;
+  height: 28em;
+  width: 28em;
+  border-radius: 20%;
+}
+
+.image_cont1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 8%;
+}
+
+
+
+.content_2{
+  display: flex;
+  margin-top: 10em;
+}
+
+.image_cont2_1{
+  /* justify-content: flex-end; */
+  margin-left: 8em;
+  height: 20em;
+  width: 20em;
+  border-radius: 20%;
+}
+
+.image_cont2_1 img{
+  width: 100%;
+  height: 100%;
+  border-radius: 6%;
+}
+
+.image_cont2_2{
+  margin-left: 10em;
+  width: 40em;
+}
+
+.image_cont2_2 p {
+  width: 34em;
+  font-size: 1.2em;
+  padding: 0px 40px;
+}
+
+
+.content_3{
+  margin-top: 9em;
+}
+
+.content_3_p{
+  font-size: 3.5em;
+  text-align: center;
+  font-weight: 600;
+}
+
+.cont_3{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cont_3_child{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cont_3_child_img_div{
+  margin: 0 auto;
+  height: 8.5em;
+  width: 8.5em;
+  border-radius: 10%;
+}
+
+.cont_3_child_img_div img{
+  width: 100%;
+  height: 100%;
+  border-radius: 15%;
+}
+
+.cont_3_child_p{
+  display: flex;
+}
+
+.cont_3_child_p p{
+  margin: 0 auto;
+  font-size: 1.1em;
+  font-weight: 500;
+}
